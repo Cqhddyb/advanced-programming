@@ -8,51 +8,51 @@ module.exports = {
     ],
 
     // // 插件
-    // plugins: [
-    //     ['@maginapp/vuepress-plugin-katex', { // katex公式
-    //       delimiters: 'dollars'
-    //     }],
+    plugins: [
+        ['@maginapp/vuepress-plugin-katex', { // katex公式
+          delimiters: 'dollars'
+        }],
 
-    //     ['vuepress-plugin-container', {
-    //         type: 'definition',
-    //         before: info => `<div class="definition"><p class="title">${info}</p>`,
-    //         after: '</div>',
-    //     }],
+        ['vuepress-plugin-container', {
+            type: 'definition',
+            before: info => `<div class="definition"><p class="title">${info}</p>`,
+            after: '</div>',
+        }],
 
-    //     ['vuepress-plugin-container', {
-    //         type: 'theorem',
-    //         before: info => `<div class="theorem"><p class="title">${info}</p>`,
-    //         after: '</div>',
-    //     }],
+        ['vuepress-plugin-container', {
+            type: 'theorem',
+            before: info => `<div class="theorem"><p class="title">${info}</p>`,
+            after: '</div>',
+        }],
 
-    //     ['vuepress-plugin-container', {
-    //         type: 'conclusion',
-    //         before: info => `<div class="conclusion"><p class="title">${info}</p>`,
-    //         after: '</div>',
-    //     }],
+        ['vuepress-plugin-container', {
+            type: 'conclusion',
+            before: info => `<div class="conclusion"><p class="title">${info}</p>`,
+            after: '</div>',
+        }],
 
-    //     ['@vuepress/back-to-top'],
+        ['@vuepress/back-to-top'],
 
-    //     ['vuepress-plugin-mygitalk', {
-    //         // 是否启用(关闭请设置为false)(default: true)
-    //         enable: true,
-    //         // 是否开启首页评论(default: true)
-    //         home: false,
-    //         // Gitalk配置
-    //         gitalk: {
-    //             // GitHub Application Client ID.
-    //             clientID: 'd82b318c0c7bcc30fc72',
-    //             // GitHub Application Client Secret.
-    //             clientSecret: 'c1d713026e3dc925bf0afa184fc2339ce730c3ca',
-    //             // GitHub repository. 存储评论的 repo
-    //             repo: 'static-analysis',
-    //             // GitHub repository 所有者，可以是个人或者组织。
-    //             owner: 'JacyCui',
-    //             // 设置语言(default: zh-CN)
-    //             language: 'zh-CN',
-    //         }
-    //     }]
-    // ],
+        ['vuepress-plugin-mygitalk', {
+            // 是否启用(关闭请设置为false)(default: true)
+            enable: false,
+            // 是否开启首页评论(default: true)
+            home: false,
+            // Gitalk配置
+            // gitalk: {
+            //     // GitHub Application Client ID.
+            //     clientID: 'd82b318c0c7bcc30fc72',
+            //     // GitHub Application Client Secret.
+            //     clientSecret: 'c1d713026e3dc925bf0afa184fc2339ce730c3ca',
+            //     // GitHub repository. 存储评论的 repo
+            //     repo: 'static-analysis',
+            //     // GitHub repository 所有者，可以是个人或者组织。
+            //     owner: 'Cqhddyb',
+            //     // 设置语言(default: zh-CN)
+            //     language: 'zh-CN',
+            //}
+        }]
+    ],
     
     markdown: { // markdown渲染设置
         lineNumbers: true
@@ -60,8 +60,8 @@ module.exports = {
     locales: {  // 网站语言设置
         '/': {
             lang: 'zh-CN'
-            // title: 'VuePress',
-            // description: 'Vue-powered Static Site Generator'
+            //title: '高级程序设计',
+            //description: 'C++高级程序设计课程笔记'
         }
     },
     themeConfig: { // 主题设置
@@ -109,7 +109,7 @@ module.exports = {
     //         { text: '笔者博客', link: 'https://blog.chenqihang.top' },
     //         //{ text: '配套实验', link: 'https://tai-e.pascal-lab.net/'}
     //     ],
-        repo: 'Cqhddyb/my-vuepress', // 文档项目的github仓库
+        repo: 'Cqhddyb/advanecd-programming', // 文档项目的github仓库
 
         // // 关于侧边栏
         // displayAllHeaders: false, // 显示所有页面的标题链接，否则只显示当前页面的

@@ -1,18 +1,18 @@
 ---
 home: true # 主页
 heroImage: /static-analysis.png # 主页大图
-heroText: 静态分析 # 主页标题
-tagline: 基于南京大学软件分析课程的静态分析基础教程 # 主页副标题
+heroText: 高级程序设计 # 主页标题
+tagline: C++高级程序设计的课程笔记 # 主页副标题
 actionText: 开始学习 → # 主页按钮文字
 actionLink: /preface/ # 主页按钮链接
 # navbar: true # 启用导航栏
 features: # 特点介绍
-- title: 内容全面
-  details: 涵盖一个自顶向下，然后又自底向上的完整的基础静态分析知识体系。
-- title: 结构严谨
-  details: 基于集合论与数理逻辑来阐释关键概念与性质，保持前后数学记号上的连贯性。
+- title: 内容丰富
+  details: 涵盖了南京大学高级程序设计以及北京大学程序设计与算法（三）的主要内容
+- title: 读写结合
+  details: 包涵了一些与知识点密切相关的问题，便于读者进行自我检验
 - title: 通俗易懂
-  details: 由于本身就是笔者从学生视角作的笔记形成的教程，对初学者更加友好。
+  details: 即使是C++刚入门的同学也能轻松理解，收获满满
 # footer: MIT Licensed | Copyright © 2018-present Evan You # 页脚
 ---
 
