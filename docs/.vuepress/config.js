@@ -65,50 +65,45 @@ module.exports = {
         }
     },
     themeConfig: { // 主题设置
-    //     // 关于导航栏
-    //     logo: '/favicon.png', // 导航栏logo
-    //     navbar: true, // 启用导航栏
-    //     nav: [ // 导航栏内容设置
-    //         {
-    //             text: '目录',
-    //             items: [
-    //                 {
-    //                     text: '第一部分：程序的表示',
-    //                     items: [
-    //                         {text: '1 静态分析概述', link: '/01-intro/'},
-    //                         {text: '2 程序的中间表示', link: '/02-ir/'}
-    //                     ]
-    //                 }
-    //                 // {
-    //                 //     text: '第二部分：数据流分析',
-    //                 //     items: [
-    //                 //         {text: '3 数据流分析-应用', link: '/03-dfa-ap/'},
-    //                 //         {text: '4 数据流分析-基础', link: '/04-dfa-fd/'},
-    //                 //         {text: '5 过程间分析', link: '/05-inter/'}
-    //                 //     ]
-    //                 // },
-    //                 // {
-    //                 //     text: '第三部分：指针分析',
-    //                 //     items: [
-    //                 //         {text: '6 指针分析-引入', link: '/06-pta-intro/'},
-    //                 //         {text: '7 指针分析-基础', link: '/07-pta-fd/'},
-    //                 //         {text: '8 指针分析-上下文敏感', link: '/08-pta-cs/'},
-    //                 //         {text: '9 静态分析与安全', link: '/09-security/'},
-    //                 //         {text: '10 基于Datalog的程序分析', link: '/10-datalog/'}
-    //                 //     ]
-    //                 // },
-    //                 // {
-    //                 //     text: '第四部分：技术拓展',
-    //                 //     items: [
-    //                 //         {text: '11 CFL可达与IFDS', link: '/11-ifds/'},
-    //                 //         {text: '12 完整性与近似完整性', link: '/12-soundiness/'}
-    //                 //     ]
-    //                 // }                    
-    //             ]
-    //         },
-    //         { text: '笔者博客', link: 'https://blog.chenqihang.top' },
-    //         //{ text: '配套实验', link: 'https://tai-e.pascal-lab.net/'}
-    //     ],
+        // 关于导航栏
+        logo: '/favicon.png', // 导航栏logo
+        navbar: true, // 启用导航栏
+        nav: [ // 导航栏内容设置
+            {
+                text: '目录',
+                items: [
+                    {
+                        text: '第一部分：类和对象基础',
+                        items: [
+                            {text: '1 数据的抽象与封装', link: '/01-intro/'},
+                            {text: '2 类和对象的基本概念及面向对象概述', link: '/02-ir/'},
+                            {text: '3 this指针', link: '/02-ir/'},
+                            {text: '4 构造函数与析构函数', link: '/02-ir/'},
+                            {text: '5 拷贝构造函数', link: '/02-ir/'}
+                        ]
+                    },
+                    {
+                        text: '第二部分：类和对象提高',
+                        items: [
+                            {text: '6 对象数组和对象指针', link: '/02-ir/'},
+                            {text: '7 类作用域和对象生命期', link: '/02-ir/'},
+                            {text: '6 常成员函数与静态成员', link: '/03-dfa-ap/'},
+                            {text: '7 成员对象和封闭类', link: '/04-dfa-fd/'},
+                            {text: '8 友元', link: '/05-inter/'}
+                        ]
+                    },
+                    {
+                        text: '第三部分：操作符重载',
+                        items: [
+                            {text: '9 基本操作符重载', link: '/06-pta-intro/'},
+                            {text: '10 特殊操作符重载', link: '/07-pta-fd/'},
+                        ]
+                    }                
+                ]
+            },
+            { text: '笔者博客', link: 'https://blog.chenqihang.top' },
+            //{ text: '配套实验', link: 'https://tai-e.pascal-lab.net/'}
+        ],
         repo: 'Cqhddyb/advanecd-programming', // 文档项目的github仓库
 
         // // 关于侧边栏
