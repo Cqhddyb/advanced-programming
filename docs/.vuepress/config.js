@@ -1,6 +1,6 @@
 module.exports = {
-    title: '数据库概论', // 网站标题
-    description: '数据库概论的课程笔记', // 网站描述
+    title: 'C++高级程序设计', // 网站标题
+    description: 'C++高级程序设计的课程笔记', // 网站描述
 
     // 插入html头
     head: [
