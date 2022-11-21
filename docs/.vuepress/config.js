@@ -75,7 +75,7 @@ module.exports = {
                     {
                         text: '第一部分：类和对象基础',
                         items: [
-                            {text: '1 数据的抽象与封装', link: '/01-intro/'},
+                            {text: '1 数据的抽象与封装', link: '/01-foundation/'},
                             {text: '2 类和对象的基本概念及面向对象概述', link: '/02-ir/'},
                             {text: '3 this指针', link: '/02-ir/'},
                             {text: '4 构造函数与析构函数', link: '/02-ir/'},
@@ -106,69 +106,59 @@ module.exports = {
         ],
         repo: 'Cqhddyb/advanecd-programming', // 文档项目的github仓库
 
-        // // 关于侧边栏
-        // displayAllHeaders: false, // 显示所有页面的标题链接，否则只显示当前页面的
-        // activeHeaderLinks: false, // 活动的标题链接
-        // sidebarDepth: 3, // 
-        // sidebar: [
-        //     '/preface/',
-        //     {
-        //         title: '第一部分：程序的表示',   
-        //         // path: '/01-intro/',
-        //         collapsable: false,
-        //         sidebarDepth: 2,
-        //         children: [
-        //             '/01-intro/',
-        //             '/02-ir/'
-        //         ]
-        //     },
-        //     {
-        //         title: '第二部分：数据流分析',   
-        //         // path: '/03-dfa-ap/',
-        //         collapsable: false,
-        //         sidebarDepth: 2,
-        //         children: [
-        //             '/03-dfa-ap/',
-        //             '/04-dfa-fd/',
-        //             '/05-inter/'
-        //         ]
-        //     },
-        //     {
-        //         title: '第三部分：指针分析',   
-        //         // path: '/06-pta-intro/',
-        //         collapsable: false,
-        //         sidebarDepth: 2,
-        //         children: [
-        //             '/06-pta-intro/',
-        //             '/07-pta-fd/',
-        //             '/08-pta-cs/',
-        //             '/09-security/',
-        //             '/10-datalog/'
-        //         ]
-        //     },
-        //     {
-        //         title: '第四部分：技术拓展',   
-        //         // path: '/11-ifds/',
-        //         collapsable: false,
-        //         sidebarDepth: 2,
-        //         children: [
-        //             '/11-ifds/',
-        //             '/12-soundiness/'
-        //         ]
-        //     }
-        //     // ['/demo', 'Explicit link text'], // 显示地指定文字
-        // ],
+        // 关于侧边栏
+        displayAllHeaders: false, // 显示所有页面的标题链接，否则只显示当前页面的
+        activeHeaderLinks: false, // 活动的标题链接
+        sidebarDepth: 3, // 
+        sidebar: [
+            '/preface/',
+            {
+                title: '第一部分：类和对象基础',   
+                // path: '/01-intro/',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    '/01-foundation/',
+                    '/02-ir/'
+                ]
+            },
+            {
+                title: '第二部分：类和对象提高',   
+                // path: '/03-dfa-ap/',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    '/03-dfa-ap/',
+                    '/04-dfa-fd/',
+                    '/05-inter/'
+                ]
+            },
+            {
+                title: '第三部分：操作符重载',   
+                // path: '/06-pta-intro/',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    '/06-pta-intro/',
+                    '/07-pta-fd/',
+                    '/08-pta-cs/',
+                    '/09-security/',
+                    '/10-datalog/'
+                ]
+            },
+            // ['/demo', 'Explicit link text'], // 显示地指定文字
+        ],
 
-        // // 关于页脚
-        // nextLinks: true, // 下一篇
-        // prevLinks: true, // 上一篇
-        // lastUpdated: '最后更新', // string | boolean 最后更新时间
-        // repoLabel: '查看源码',
-        // // docsRepo: 'vuejs/vuepress', // 文档仓库，默认为项目仓库
-        // docsDir: 'docs', // 文档目录
-        // docsBranch: 'main', // 文档分支
-        // editLinks: true,
-        // editLinkText: '帮助我改善此页面！',
+        // 关于页脚
+        nextLinks: true, // 下一篇
+        prevLinks: true, // 上一篇
+        lastUpdated: '最后更新', // string | boolean 最后更新时间
+        repoLabel: '查看源码',
+        // docsRepo: 'vuejs/vuepress', // 文档仓库，默认为项目仓库
+        docsDir: 'docs', // 文档目录
+        docsBranch: 'main', // 文档分支
+        editLinks: true,
+        editLinkText: '帮助我改善此页面！',
 
         smoothScroll: true // 页面滚动 
     }
