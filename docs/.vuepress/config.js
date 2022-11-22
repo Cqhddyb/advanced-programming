@@ -73,7 +73,7 @@ module.exports = {
                 text: '目录',
                 items: [
                     {
-                        text: '第一部分：类和对象基础',
+                        text: '第一部分：类和对象',
                         items: [
                             {text: '1 数据的抽象与封装', link: '/01-foundation/'},
                             {text: '2 类和对象的基本概念及面向对象概述', link: '/02-ir/'},
@@ -83,7 +83,7 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '第二部分：类和对象提高',
+                        text: '第二部分：操作符重载',
                         items: [
                             {text: '6 对象数组和对象指针', link: '/02-ir/'},
                             {text: '7 类作用域和对象生命期', link: '/02-ir/'},
@@ -93,7 +93,7 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '第三部分：操作符重载',
+                        text: '第三部分：继承与多态',
                         items: [
                             {text: '9 基本操作符重载', link: '/06-pta-intro/'},
                             {text: '10 特殊操作符重载', link: '/07-pta-fd/'},
@@ -113,37 +113,64 @@ module.exports = {
         sidebar: [
             '/preface/',
             {
-                title: '第一部分：类和对象基础',   
+                title: '第一部分：类和对象',   
                 // path: '/01-intro/',
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
                     '/01-foundation/',
-                    '/02-ir/'
+                    '/02-enhance/'
+                    //'/02-ir/'
                 ]
             },
             {
-                title: '第二部分：类和对象提高',   
+                title: '第二部分：操作符重载',   
                 // path: '/03-dfa-ap/',
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
-                    '/03-dfa-ap/',
-                    '/04-dfa-fd/',
-                    '/05-inter/'
+                    //'/03-dfa-ap/',
+                    //'/04-dfa-fd/',
+                    //'/05-inter/'
                 ]
             },
             {
-                title: '第三部分：操作符重载',   
+                title: '第三部分：继承与多态',   
                 // path: '/06-pta-intro/',
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
-                    '/06-pta-intro/',
-                    '/07-pta-fd/',
-                    '/08-pta-cs/',
-                    '/09-security/',
-                    '/10-datalog/'
+                    //'/06-pta-intro/',
+                    //'/07-pta-fd/',
+                    //'/08-pta-cs/',
+                    //'/09-security/',
+                    //'/10-datalog/'
+                ]
+            },
+            {
+                title: '第四部分：输入输出与模板',   
+                // path: '/06-pta-intro/',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    //'/06-pta-intro/',
+                    //'/07-pta-fd/',
+                    //'/08-pta-cs/',
+                    //'/09-security/',
+                    //'/10-datalog/'
+                ]
+            },
+            {
+                title: '第五部分：其他',   
+                // path: '/06-pta-intro/',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    //'/06-pta-intro/',
+                    //'/07-pta-fd/',
+                    //'/08-pta-cs/',
+                    //'/09-security/',
+                    //'/10-datalog/'
                 ]
             },
             // ['/demo', 'Explicit link text'], // 显示地指定文字
